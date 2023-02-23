@@ -2,7 +2,7 @@
 
 text = input("Please enter a string: ") 
  
-vowels = 0
+vowels =0
 
 for i in text: 
     if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'): 
