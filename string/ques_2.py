@@ -1,6 +1,5 @@
 # Write a Python program to count the number of characters
 # (character frequency) in a string. 
-
 a="Google:"
 d={}
 for i in a:
@@ -10,5 +9,3 @@ for i in a:
     else:
         d[i]=1 # data save that is why using "d
 print(d)
-    
-    

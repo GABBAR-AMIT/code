@@ -8,9 +8,3 @@ for i in a:
     else:
         l+=i
 print("".join(l))
-    
-    
-
-
-
-

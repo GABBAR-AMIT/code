@@ -3,4 +3,3 @@ a=input('the string name:')
 b=int(input('nth index:'))
 c=a[:b]+a[b+1:]
 print('the string output:',c)
-      

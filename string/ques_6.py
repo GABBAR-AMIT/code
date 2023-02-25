@@ -8,11 +8,3 @@ if len(a)>=3:
     else:
         a+="ing"
 print(a)
-    
-        
-    
-
-
-
-
- 

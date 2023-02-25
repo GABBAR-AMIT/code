@@ -6,4 +6,3 @@ input = input("Enter a string: ")
 output = input[:2] + input[-2:] if len(input) >= 2 else ''
 
 print("Output string: " + output)
-
