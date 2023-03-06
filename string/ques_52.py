@@ -6,9 +6,3 @@ b=int(input("the number:"))
 l=permutations(a,b)
 for i in l:# k  
     print(i)
-   
-
-
-
- 
-
