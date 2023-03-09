@@ -6,4 +6,5 @@ for txt in str.split():
 	  print(txt)
     else:
 	  t.add(txt)
+print(t)
    

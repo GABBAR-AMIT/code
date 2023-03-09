@@ -15,4 +15,3 @@ sorted_words = sorted(words_list, key=lambda x: x[0])
 result = " ".join(sorted_words)
 
 print(result)
-
