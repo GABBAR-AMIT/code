@@ -1,5 +1,5 @@
-def decapitalize_first_letter(s, upper_rest = False):
-  a =''.join([s[:1].lower(), (s[1:].upper() if upper_rest else s[1:])]) 
-  return a
-print(decapitalize_first_letter('Java Script'))
-print(decapitalize_first_letter('Python'))
+a = 6
+
+b = lambda x: x+5
+
+print(b(a))
