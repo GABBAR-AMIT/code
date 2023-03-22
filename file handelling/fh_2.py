@@ -11,3 +11,4 @@ def n_line(fname,n):
 i = input("Enter the firl name : ")
 j = int(input("Enter the number of lines : "))
 n_line(i,j)
+
