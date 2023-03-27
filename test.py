@@ -1,12 +1,8 @@
-# Request the user to enter the length and elements of the list
-num = int(input("Enter the length of the List: "))
-lst = []
-
-for i in range(num):
-    lst.append(int(input("Enter element {}:".format(i+1))))
-
-# Convert the list of integers into a single integer
-result = ''.join(map(str, lst))
-
-print("List of integers:", lst)
-print("Single integer: ", result)
+a=[-1,-2,-3,4,5,6,7,8,9,10,11,12,13,14,15]
+b=[]
+for i in range(0,len(a),5):
+    c=[]
+    for j in range(i,i+5):
+        c.append(a[i])
+    b.append(c)
+print(b)
