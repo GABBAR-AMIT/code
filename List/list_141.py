@@ -5,3 +5,9 @@ def empty(list1):
 list1 = [[], [], [], 'Red', 'Green', [1,2], 'Blue', [], []]
 a=empty(list1)
 print(a)
+
+'''
+b=[]
+    for i in a : 
+       b.append(i) 
+'''
