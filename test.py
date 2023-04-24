@@ -1,8 +1,4 @@
-l=[87, 88, 56, 89, 44, 100, 23, 87, 1]
-b=[]
-for i in range(len(l)):
-    for j in range(i + 1, len(l)):
+a = [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":"S005"}, {"V":"S009"},{"VIII":"S007"}]
 
-        if l[i] > l[j]:
-            l[i], l[j] = l[j], l[i]
-print(l)
+for i in a :
+    print(i.values())
