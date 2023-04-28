@@ -1,4 +1,4 @@
-class node:
+ class node:
     def __init__(self,data):
         self.head=data
         self.addr=None
@@ -21,5 +21,16 @@ node3=node(30)
 node2.addr=node3
 node4=node(40)
 node3.addr=node4
-
+node5=node(50)
+node4.addr=node5
+node6=node(60)
+node5.addr=node6
+node7=node(70)
+node6.addr=node7
+node8=node(80)
+node7.addr=node8
+node9=node(90)
+node8.addr=node9
+node10=node(100)
+node9.addr=node10
 node1.p_rint()
