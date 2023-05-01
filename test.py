@@ -1,4 +1,4 @@
- class node:
+class node:
     def __init__(self,data):
         self.head=data
         self.addr=None
