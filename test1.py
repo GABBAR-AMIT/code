@@ -1,16 +1,22 @@
-class abc: # base / parent class
-    a = "hello"
-    b = " world"
-    c = a+b
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
         
-
-class xyz(abc): # child class
-    def ert(self):
-        print("1+2",abc.c)
+class llist:
+    def __init__(self):
+        self.head=None
         
-class ghj(xyz):
-    def ert1(self):
-        print("inside the function of 2nd child class",abc.c)
-obj =ghj()
-
-obj.ert1()
+    def printt(self):
+        a=self.head
+        while a:
+            print(a.data)
+            a=a.next
+no1=llist()
+no1.head=node(20)
+no2=node(40)
+no1.head.next=no2
+no3=node(60)
+no2.next=no3
+no1.printt()
+#how to make a linklist ?
