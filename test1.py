@@ -1,22 +1,23 @@
 class node:
     def __init__(self,data):
-        self.data=data
+        self.head=data
         self.next=None
         
-class llist:
+class listt:
     def __init__(self):
-        self.head=None
-        
+        self.n1=None
     def printt(self):
-        a=self.head
-        while a:
-            print(a.data)
+        a=self.n1
+        while a :
+            print(a.head)
             a=a.next
-no1=llist()
-no1.head=node(20)
-no2=node(40)
-no1.head.next=no2
-no3=node(60)
-no2.next=no3
-no1.printt()
-#how to make a linklist ?
+    def insert_l(self,j):
+        new=node(j)
+        new.next=self.n1
+        self.n1=new
+node1=listt()
+node1.n1=node(10)
+node2=node(15)
+node1.n1.next=node2
+node1.insert_l(5)
+node1.printt()
