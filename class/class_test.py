@@ -1,9 +1,9 @@
 class person:
-    def __init__(self):
-        self.name = "John"
-        self.age = 35
-        self.height = 180
-        self.weight = 70
+    def __init__(self,name,age,height,weight):
+        self.name = name
+        self.age = age
+        self.height = height
+        self.weight = weight
         
     def talk(self):
         print("hi i am ",self.name)
@@ -14,6 +14,9 @@ class person:
         else:
             print("i am eligible to vote")
 
-obj=person
-person.talk(obj)
-person.vote(obj)
+obj=person('john',23,5.9,50)
+obj1=person('abc',25,30,50)
+obj1.talk()
+obj.talk()
+obj.vote()
+obj1.vote()
