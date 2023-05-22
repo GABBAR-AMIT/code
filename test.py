@@ -12,6 +12,13 @@ class l_list:
         while a:
             print(a.head)
             a=a.addr
+    def inserction(self, j):
+        a=self.n1
+        n_node=node(j)
+        n_node.addr=a
+    
+    def del1(self,30):
+        
 
 node1=l_list()
 node1.n1=node(10)
