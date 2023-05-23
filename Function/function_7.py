@@ -8,7 +8,7 @@ def count(str):
             upper_count+=1
         elif i.islower():
             lower_count+=1
-            return upper_count,lower_count
+    return upper_count,lower_count
         
 sample = 'The quick Brow Fox'
 upper, lower = count(sample)
