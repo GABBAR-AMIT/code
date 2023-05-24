@@ -17,7 +17,6 @@ class l_list:
         n_node=node(j)
         n_node.addr=a
     
-    def del1(self,30):
         
 
 node1=l_list()
