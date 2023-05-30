@@ -30,7 +30,7 @@ day_of_month = x.strftime("%d")
 print("Day of the month:", day_of_month)
 # Day of week 
 day_of_week = x.strftime("%w")
- 
+print("Day of week:",day_of_week)
 
 
 
