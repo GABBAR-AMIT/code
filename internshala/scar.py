@@ -59,7 +59,7 @@ def solve_captcha(captcha):
     The solution to the captcha.
   """
 
-  # TODO: Implement this function to solve the captcha.
+  # TODO: Implement this function to solve the captcha
 
   return None
 
