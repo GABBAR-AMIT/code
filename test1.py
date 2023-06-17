@@ -1,23 +1,25 @@
-class node:
-    def __init__(self,data):
-        self.head=data
-        self.next=None
+
+a=[10,20,30,40]
+element_find=20
+for i in range (len(a)):
+    if a[i]==element_find:
+        print(i)
         
-class listt:
-    def __init__(self):
-        self.n1=None
-    def printt(self):
-        a=self.n1
-        while a :
-            print(a.head)
-            a=a.next
-    def insert_l(self,j):
-        new=node(j)
-        new.next=self.n1
-        self.n1=new
-node1=listt()
-node1.n1=node(10)
-node2=node(15)
-node1.n1.next=node2
-node1.insert_l(5)
-node1.printt()
+        
+
+def binary_search(lst,find):
+    low=0
+    high=len(lst)-1
+    
+    while low<= high:
+        mid=(low+high)//2
+        if lst[mid]==find:
+            return mid
+        elif lst[mid]<find:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+
+lst=[1,2,3,4,5,6,7,8,9]
+find=
