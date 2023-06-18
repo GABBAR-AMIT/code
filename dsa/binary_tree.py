@@ -9,3 +9,5 @@ class tree():
         
 node=tree(10)
 node.printree()
+node2=tree(20)
+node2.printree()
